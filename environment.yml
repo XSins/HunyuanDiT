@@ -3,6 +3,11 @@ channels:
   - pytorch
   - nvidia
 dependencies:
-  - python=3.8.12
+  - python=3.10
   - pytorch=1.13.1
   - pip
+  - cuda-toolkit
+  - ninja
+  - pip:
+      - packaging
+      - pre-commit
